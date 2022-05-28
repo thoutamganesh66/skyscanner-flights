@@ -1,0 +1,6 @@
+.col-sm {
+    display: flex;
+    margin-right: 2.625rem;
+    align-items: center;
+    margin-bottom: .75rem;
+}
