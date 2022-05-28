@@ -1,6 +1,21 @@
-.col-sm {
-    display: flex;
+/* .col-sm {
     margin-right: 2.625rem;
     align-items: center;
     margin-bottom: .75rem;
+   
+} */
+
+.containerBox {
+    /* display: flex;
+    width: 95%;
+    max-width: 1048px;
+    margin: 3.75rem auto; */
+}
+
+.containerItem {
+    /* display: flex;
+    flex-direction: row;
+    margin-right: 2.625rem;
+    align-items: center;
+    max-width: 100%; */
 }

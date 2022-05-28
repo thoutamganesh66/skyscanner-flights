@@ -35,7 +35,7 @@ const Benefits = () => {
                                     <ImageHeading>Pay less, go further with transparent pricing</ImageHeading>
                                 </div>
                                 <div className='imageDescription'>
-                                    <ImageParagraph>Enter your departure airport and travel dates, then hit ‘Everywhere’. You’ll see flights to every destination in the world, cheapest first.</ImageParagraph>
+                                    <ImageParagraph>Cheap flights. No hidden fees. No funny business. With us, the price you see when you search is what you’ll pay.</ImageParagraph>
                                 </div>
                             </div>
                             <div className='col-sm'>
@@ -46,7 +46,7 @@ const Benefits = () => {
                                     <ImageHeading>Book when it's best with Price Alerts</ImageHeading>
                                 </div>
                                 <div className='imageDescription'>
-                                    <ImageParagraph>Enter your departure airport and travel dates, then hit ‘Everywhere’. You’ll see flights to every destination in the world, cheapest first.</ImageParagraph>
+                                    <ImageParagraph>Found your flight, but not quite ready to book? Set up Price Alerts and we’ll let you know when your flight price goes up or down.</ImageParagraph>
                                 </div>
                             </div>
                         </div>

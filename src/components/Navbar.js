@@ -15,7 +15,6 @@ const Navbar = () => {
                         <LogoImage src={Logo} alt='logo' />
                     </div>
                     <div className='col'>
-
                     </div>
                 </div>
             </div>

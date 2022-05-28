@@ -9,11 +9,11 @@ line-height: 1.3rem;`
 export const SmallImageContainer = styled.div`
 margin-right: .75rem;`
 
-export const ImageStyles = styled.img`
+export const ConfidenceImageStyles = styled.img`
 width: 4rem;
 height: 4rem;`
 
-export const ImageText = styled.div`
+export const ConfidenceImageText = styled.div`
 text-align:left;
 font-size: .875rem;
 line-height: 1.25rem;
