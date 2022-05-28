@@ -1,6 +1,7 @@
 import React from 'react'
 import Benefits from './Benefits-Box/Benefits';
 import Confidence from './Confidence-Message/Confidence';
+import Deals from './Deals/Deals';
 import NewsLetter from './Newsletter/NewsLetter';
 import Peace from './Peace-Container/Peace';
 
@@ -9,6 +10,7 @@ const Home = () => {
         <>
             <div>
                 <Confidence />
+                <Deals />
                 <Benefits />
                 <Peace />
                 <NewsLetter />

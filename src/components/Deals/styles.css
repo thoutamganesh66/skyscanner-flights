@@ -1,0 +1,80 @@
+.heading {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.4375rem;
+}
+
+.subHeading {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.more {
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    color: var(--bpk-link-color, #0770e3);
+}
+
+.scrollabel {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.imgContainer {
+    width: 50%;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.icon-small {
+    width: 1rem;
+}
+
+.details {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.flightDetails {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.flightDetailsSmall {
+    text-align: left;
+    padding-left: 0.4rem;
+}
+
+.cardContainer {
+    border-radius: .75rem;
+    white-space: normal;
+    box-shadow: 0 0.063rem 0.188rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
