@@ -1,0 +1,54 @@
+.buttonWrapper {}
+
+label {
+    margin-right: 1rem;
+}
+
+.searchWrapper {
+    background-color: #02122c;
+    color: #fff;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+.labelarrange1 {
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 0.1rem;
+    font-size: 0.8rem;
+}
+
+.inputHolder {
+    padding: 9px;
+}
+
+.checkBox {
+    margin-right: 0.2rem;
+}
+
+.searchButton {
+    float: right;
+}
+
+.buttonText {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #00a698;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:900px) {
+    .searchComponent {
+        background-image: url(../../assets/backgroundImage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        background-position: 50% 60%;
+    }
+}

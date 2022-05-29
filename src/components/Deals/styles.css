@@ -25,16 +25,6 @@
     color: var(--bpk-link-color, #0770e3);
 }
 
-.scrollabel {
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-.width100 {
-    width: 100%;
-}
-
 .image {
     width: 100%;
     background-repeat: no-repeat;
