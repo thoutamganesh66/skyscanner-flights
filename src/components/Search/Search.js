@@ -9,10 +9,10 @@ const Search = () => {
     return (
         <>
             <div className="searchComponent">
-                <div className="container">
-                    <div className="">
+                <div className="aa container">
+                    {/* <div className="">
                         <Heading>Cheap flights everywhere, from anywhere</Heading>
-                    </div>
+                    </div> */}
                     <div className="searchWrapper">
                         <div className="container">
                             <div className="row">
