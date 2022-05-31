@@ -1,5 +1,6 @@
 import React from 'react'
 import Benefits from './Benefits-Box/Benefits';
+import Cities from './Cities/Cities';
 import Confidence from './Confidence-Message/Confidence';
 import Deals from './Deals/Deals';
 import Faq from './FAQ/Faq';
@@ -20,6 +21,7 @@ const Home = () => {
                 <Benefits />
                 <Peace />
                 <NewsLetter />
+                <Cities />
             </div>
         </>
     );
