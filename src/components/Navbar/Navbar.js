@@ -8,8 +8,6 @@ import hotel from '../../assets/hotel-small.svg';
 
 import { Button, Button2, ButtonContainer, ButtonContainerTop, ButtonText, ButtonTop, ButtonWrapper, ButtonWrapperTop, Icon, LogoImage } from './Style';
 
-import './styles.css';
-
 const Navbar = () => {
     return (
         <>
