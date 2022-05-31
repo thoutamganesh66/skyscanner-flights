@@ -1,0 +1,36 @@
+@media screen and (min-width:900px) {
+    .mapImage {
+        background-image: url(../../assets/map.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        background-position: 50% 60%;
+    }
+}
+
+.mapIm {
+    width: 100%;
+    background-size: cover;
+    margin-top: -21rem;
+}
+
+.half {
+    width: 50%;
+}
+
+.explore {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .375rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--bpk-button-primary-background-color, #00a698);
+    font-size: var(--bpk-button-font-size, 1.1875rem);
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
