@@ -20,7 +20,7 @@ const Deals = () => {
                                     <span>Check out the cheapest flights departing in the next 90 days. </span>
                                 </span>
                             </div>
-                            <div className='col-sm-4'>
+                            <div className='col-sm-4 seeMore'>
                                 <button className="more">See more deals</button>
                             </div>
                         </div>

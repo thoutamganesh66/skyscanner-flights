@@ -6,7 +6,7 @@ import car from '../../assets/car-small.svg';
 import flight from '../../assets/flight-small.svg';
 import hotel from '../../assets/hotel-small.svg';
 
-import { Button, Button2, ButtonContainer, ButtonContainerTop, ButtonText, ButtonTop, ButtonWrapper, ButtonWrapperTop, Icon, LogoImage } from './Style';
+import { Button, Button2, LoginButton, ButtonContainer, ButtonContainerTop, ButtonText, ButtonTop, ButtonWrapper, ButtonWrapperTop, Icon, LogoImage } from './Style';
 
 const Navbar = () => {
     return (
@@ -23,7 +23,7 @@ const Navbar = () => {
                                 <ButtonTop>En(UK)</ButtonTop>
                             </ButtonContainerTop>
                             <ButtonContainerTop>
-                                <ButtonTop>Log In</ButtonTop>
+                                <LoginButton>Log In</LoginButton>
                             </ButtonContainerTop>
                         </ButtonWrapperTop>
                     </div>

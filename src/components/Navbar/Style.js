@@ -18,6 +18,13 @@ export const ButtonTop = styled.div`
 text-align: left;
 padding-left: 0.4rem;
 `
+export const LoginButton = styled.div`
+color:#0770e3;
+text-align: left;
+padding-left: 0.4rem;
+font-weight:700;
+`
+
 export const ButtonWrapperTop = styled.div`
 display:flex;
 float:right;

@@ -82,7 +82,7 @@ const Faq = () => {
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingSeven">
                         <button class="accordion-button collapsed" style={{ color: '#444560' }} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                            <img src={bell} className="faqIcon" />  How do I book flights that emit less CO<sub>2</sub>?
+                            <img src={bell} className="faqIcon" />  What happens if my flight is cancelled because of covid-19?
                         </button>
                     </h2>
                     <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">

@@ -10,9 +10,9 @@ const Search = () => {
         <>
             <div className="searchComponent">
                 <div className="aa container">
-                    {/* <div className="">
+                    <div className="searchTitle">
                         <Heading>Cheap flights everywhere, from anywhere</Heading>
-                    </div> */}
+                    </div>
                     <div className="searchWrapper">
                         <div className="container">
                             <div className="row">
@@ -29,12 +29,12 @@ const Search = () => {
                                 <div class="col-sm-2">
                                     <label class="labelarrange1">From</label>
                                     <br />
-                                    <input type="text" className="inputHolder" />
+                                    <input type="text" className="inputHolder" placeholder="Hyderabad" />
                                 </div>
                                 <div class="col-sm-2">
-                                    <label class="labelarrange1">To</label>
+                                    <label class="labelarrange1" for="to">To</label>
                                     <br />
-                                    <input type="text" className="inputHolder" />
+                                    <input type="text" id="to" name="to" className="inputHolder" placeholder="Jakarta" />
                                 </div>
                                 <div class="col-sm-3">
                                     <div>
@@ -51,9 +51,15 @@ const Search = () => {
                                     </div>
                                 </div>
                                 <div class="col-sm-2">
-                                    <label class="labelarrange1">Cabin Class & Travellers</label>
+                                    <label for="cabinClass" class="labelarrange1">Cabin Class & Travellers</label>
                                     <br />
-                                    <input type="text" className="inputHolder" />
+                                    {/* <input type="text" className="inputHolder" /> */}
+                                    <select name="cabinClass" id="cabinClass" className="dropdownHolder">
+                                        <option value="economy">Economy</option>
+                                        <option value="premium-economy">Premium Economy</option>
+                                        <option value="business-class">Business Class</option>
+                                        <option value="first-class">First Class</option>
+                                    </select>
                                 </div>
                             </div>
                             <div className="row">
